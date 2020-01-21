@@ -1,0 +1,10 @@
+App\Entity\User:
+  user_user:
+    email: issam\@gmail.com
+    roles: ["ROLE_USER"]
+    password: \$2y\$10\$sOJT7OZqyxpn75b/3AwomuxcfMwu98kmUIhnLO3xTXQBHTGbZSlkK
+
+  user_admin:
+    email: issam.admin\@gmail.com
+    roles: ["ROLE_ADMIN"]
+    password: \$2y\$10\$sOJT7OZqyxpn75b/3AwomuxcfMwu98kmUIhnLO3xTXQBHTGbZSlkK

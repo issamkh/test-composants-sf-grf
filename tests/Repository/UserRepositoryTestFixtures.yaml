@@ -1,0 +1,5 @@
+App\Entity\User:
+  user{1..10}:
+    email: user<current()>\@gmail.com
+    password: "000"
+
