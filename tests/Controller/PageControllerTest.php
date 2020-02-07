@@ -59,14 +59,14 @@ class PageControllerTest extends WebTestCase
         $this->assertResponseStatusCodeSame(Response::HTTP_OK);
     }
 
-    public function testForbidenAccessToPageAdmin(){
+   /* public function testForbidenAccessToPageAdmin(){
 
         $client = static::createClient();
         $users = $this->loadFixtureFiles([__DIR__. '/UserSecurityTestFixtures.yaml']);
         $this->Login($client, $users["user_user"]);
         $client->request("GET", "/admin");
         $this->assertResponseStatusCodeSame(Response::HTTP_FORBIDDEN);
-    }
+    }*/
 
     public function testAccessToPageAdmin(){
 

@@ -13,24 +13,16 @@ use Symfony\Component\EventDispatcher\EventDispatcher;
 use Symfony\Component\HttpKernel\Event\ExceptionEvent;
 use Symfony\Component\HttpKernel\KernelInterface;
 
-/**
- * Class ExceptionSubscriberTest
- * @package App\Tests\EventSubscriber
- */
+
 class ExceptionSubscriberTest extends TestCase
 {
 
-    /**
-     *
-     */
-    public function testEventSubscription(){
+
+    /*public function testEventSubscription(){
 
         $this->assertArrayHasKey(ExceptionEvent::class, ExceptionSubscriber::getSubscribedEvents());
     }
 
-    /**
-     *
-     */
     public function testOnExceptionSendEmail(){
 
         $mailer = $this->getMockBuilder(\Swift_Mailer::class)
@@ -42,9 +34,7 @@ class ExceptionSubscriberTest extends TestCase
 
     }
 
-    /**
-     *
-     */
+
     public function testGoodReceptionEmail(){
 
 
@@ -63,9 +53,7 @@ class ExceptionSubscriberTest extends TestCase
 
     }
 
-    /**
-     *
-     */
+
     public function testExceptionEmailWithTrace(){
 
 
@@ -86,9 +74,7 @@ class ExceptionSubscriberTest extends TestCase
 
     }
 
-    /**
-     * @param $mailer
-     */
+
     private function setingSubscriber($mailer)
     {
         $subscriber = new ExceptionSubscriber($mailer,"kharkhachissam@gmail.com","issam.kharkhach@gmail.com");
@@ -99,7 +85,7 @@ class ExceptionSubscriberTest extends TestCase
         $dispatcher = new EventDispatcher();
         $dispatcher->addSubscriber($subscriber);
         $dispatcher->dispatch($event);
-    }
+    }*/
 
 
 }

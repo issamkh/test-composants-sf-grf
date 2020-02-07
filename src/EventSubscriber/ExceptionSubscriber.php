@@ -14,12 +14,12 @@ class ExceptionSubscriber implements EventSubscriberInterface
     private $from;
     private $to;
 
-    public function __construct(\Swift_Mailer $mailer, string $from, string $to)
+   /* public function __construct(\Swift_Mailer $mailer, $from, $to)
     {
         $this->mailer = $mailer;
         $this->from = $from;
         $this->to = $to;
-    }
+    }*/
 
     public static function getSubscribedEvents()
     {
