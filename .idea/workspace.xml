@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b98d4f81-7769-46d9-bd8a-575051d08968" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/bin/composer.phar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/phpstan.phar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/php_test_run.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/scripts/ci-php-install.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env.test" beforeDir="false" afterPath="$PROJECT_DIR$/.env.test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="b98d4f81-7769-46d9-bd8a-575051d08968" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -447,12 +440,12 @@
       <workItem from="1579608147176" duration="11633000" />
       <workItem from="1579816932557" duration="612000" />
       <workItem from="1580236513265" duration="28000" />
-      <workItem from="1581090100787" duration="1707000" />
+      <workItem from="1581090100787" duration="1905000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58958000" />
+    <option name="totallyTimeSpent" value="59156000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="721" extended-state="0" />

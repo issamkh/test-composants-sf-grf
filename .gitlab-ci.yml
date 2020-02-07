@@ -16,9 +16,7 @@ variables:
   MYSQL_PASSWORD: myapptest
   # symfony 4
   DATABASE_URL: 'mysql://myapptest:myapptest@mysql:3306/myapptest'
-  # symfony 3.2+
-  TEST_DATABASE_PORT: 3306
-  TEST_DATABASE_HOST: mysql
+
 before_script:
   - sh scripts/ci-php-install.sh
   - php bin/composer.phar global require hirak/prestissimo
