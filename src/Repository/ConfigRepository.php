@@ -22,6 +22,7 @@ class ConfigRepository extends ServiceEntityRepository
     public function dbAsArray($name): array{
 
         //TODO Ecrire le code
+        return [];
     }
 
     // /**
